@@ -125,6 +125,9 @@ margin: 0 auto;
 height: 600px;
 flex-shrink: 0;
 padding: 188px 0;
+background-image: url(/Users/ivalextar/Desktop/GoIT-PROJECTS/goit-markup-hw-04/images/people-office.jpg);
+background-position: center center;
+background-repeat: no-repeat;
 }
 
 .solutions-title {
