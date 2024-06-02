@@ -42,11 +42,19 @@ a {
 
   .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff ;
   }
 
   header .container {
     display: flex;
-    justify-content: space-between; /*do i need it?*/
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -86,6 +94,7 @@ letter-spacing: 0.02em;
 padding-top: 24px;
 padding-bottom: 24px;
 display: block;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:hover,
@@ -125,10 +134,9 @@ margin: 0 auto;
 height: 600px;
 flex-shrink: 0;
 padding: 188px 0;
-}
-
-.solutions {
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
