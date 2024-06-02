@@ -101,7 +101,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
 position: relative;
 }
-.nav-list .active {
+.nav-list .active::after {
   content: "";
   position: absolute;
   left: 0;
