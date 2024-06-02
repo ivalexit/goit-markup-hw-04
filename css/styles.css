@@ -425,6 +425,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 100px 0;
 }
 
+.footer-section .container {
+  display: flex;
+  align-items: baseline;
+}
+
+
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -489,9 +495,9 @@ max-width: 264px;
 
 .footer-icons-link:hover,
 .footer-icons-link:focus {
-    background-color: #31d0aa;
+ background-color: #31d0aa;
 }
 
 .footer-icon {
-  fill: #f4f4fd;
+ fill: #f4f4fd;
 }
