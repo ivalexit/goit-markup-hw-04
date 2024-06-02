@@ -230,6 +230,22 @@ gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 
+.adv-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+.adv-icon {
+  fill: #2a2a2a;
+}
+
+
 .adv-title {
   color: var(--NAVY-BLUE, #2E2F42);
   font-size: 20px;
