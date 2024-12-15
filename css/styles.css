@@ -241,6 +241,7 @@ header .container {
 
 .advantages-icon {
   margin-bottom: 16px;
+  display: flex;
 }
 
 .advantages-icon svg {
