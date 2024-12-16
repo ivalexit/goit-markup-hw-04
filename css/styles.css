@@ -538,7 +538,8 @@ header .container {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  list-style: none;
+  list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .footer-links-item {
