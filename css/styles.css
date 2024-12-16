@@ -488,6 +488,7 @@ header .container {
 .footer-container {
   display: flex;
   align-items: baseline;
+  max-width: 100%;
 }
 
 .footer-content {
