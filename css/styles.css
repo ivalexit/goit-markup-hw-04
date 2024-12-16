@@ -331,7 +331,10 @@ header .container {
 /* Social Links */
 .team-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
+  list-style-type: none;
 }
 
 .team-links-item a {
