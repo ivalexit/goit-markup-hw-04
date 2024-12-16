@@ -252,11 +252,11 @@ header .container {
   border: 1px solid #8e8f99;
 }
 
-.advantages-icon svg {
+/*.advantages-icon svg {
   width: 64px;
   height: 64px;
   fill: #4D5AE5;
-}
+}*/
 
 .advantages-title {
   color: #2E2F42;
