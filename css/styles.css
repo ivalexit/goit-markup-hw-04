@@ -339,6 +339,7 @@ header .container {
   align-items: center;
   gap: 24px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .team-link {
