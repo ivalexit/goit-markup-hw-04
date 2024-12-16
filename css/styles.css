@@ -341,7 +341,7 @@ header .container {
   list-style-type: none;
 }
 
-/*.team-links-item a {
+.team-links-item a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,28 +350,24 @@ header .container {
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+}
 
-/*.team-links-item a:hover,
+.team-links-item a:hover,
 .team-links-item a:focus {
   background-color: #404bbf;
-}*/
-
-.team-links-item:hover,
-.team-links-item:focus {
-  background-color: #404bbf;
 }
 
-.team-links-item {
-  display: flex;
-  border-radius: 50%;
-  background-color: #4d5ae5;
+
+
+.team-social-list-item {
   width: 40px;
   height: 40px;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*.team-links-item:hover,
+.team-links-item:focus {
+  background-color: #404bbf;
+}*/
 
 .team-links-icon {
   fill: #f4f4fd;
