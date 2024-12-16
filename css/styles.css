@@ -488,11 +488,11 @@ header .container {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
-.footer-desc {
-  max-width: 264px;
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-logo {
