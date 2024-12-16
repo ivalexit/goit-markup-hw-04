@@ -517,6 +517,7 @@ header .container {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .footer-social {
@@ -531,7 +532,9 @@ header .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
+
 
 .footer-links {
   display: flex;
