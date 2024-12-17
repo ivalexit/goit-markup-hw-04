@@ -230,7 +230,8 @@ header .container {
 }
 
 .advantages-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex: 1 1 calc((100% - 72px) / 4);
+  max-width: 264px;
   background-color: #F4F4FD;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
