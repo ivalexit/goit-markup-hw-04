@@ -226,6 +226,7 @@ header .container {
 .advantages-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .advantages-item {
