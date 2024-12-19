@@ -500,7 +500,8 @@ header .container {
 }*/
 
 .footer-content {
-  margin-right: 120px;
+  /*margin-right: 120px;*/
+  max-width: 264px;
 }
 
 .footer-logo {
