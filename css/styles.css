@@ -506,6 +506,7 @@ header .container {
 
 .footer-block {
   display: flex;
+  gap: 100px;
 
 }
 
@@ -530,6 +531,7 @@ header .container {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
   /*text-align: center;*/
 }
 
