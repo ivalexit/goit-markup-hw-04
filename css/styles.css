@@ -504,6 +504,11 @@ header .container {
   max-width: 264px;
 }
 
+.footer-block {
+  display: flex;
+
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -525,7 +530,7 @@ header .container {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .footer-social {
