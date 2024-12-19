@@ -492,11 +492,11 @@ header .container {
   padding: 100px 0;
 }
 
-.footer-container {
+/*.footer-container {
   display: flex;
   align-items: baseline;
   max-width: 100%;
-}
+}*/
 
 .footer-content {
   margin-right: 120px;
